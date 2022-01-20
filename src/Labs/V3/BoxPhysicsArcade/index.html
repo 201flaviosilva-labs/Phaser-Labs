@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../../../CSS/Canvas.css">
+	<link rel="stylesheet" href="./style.css">
+	<title>BoxPhysics</title>
+</head>
+
+<body>
+	<h1>Box Physics Arcade</h1>
+	<div id="FPSs">FPS</div>
+
+	<div id="configs">
+		<div class="Elements">
+
+			<div class="Group">
+				<h3>Box</h3>
+				<label for="CriarBox">
+					<input type="checkbox" name="CriarBox" id="CriarBox" checked>
+					Criar
+				</label>
+
+				<label for="Bounce">
+					<input type="checkbox" name="Bounce" id="Bounce">
+					Bounce
+				</label>
+
+				<label for="Circular">
+					<input type="checkbox" name="Circular" id="Circular">
+					Circular
+				</label>
+			</div>
+
+			<div class="Group">
+				<h3>Gravity</h3>
+
+				<label for="GravityX">
+					X: <input type="range" name="GravityX" id="GravityX" min="-100" max="100" value="0" step="0.01"
+						oninput="this.nextElementSibling.value = this.value">
+					<output>0</output>
+				</label>
+
+				<label for="GravityY">
+					Y: <input type="range" name="GravityY" id="GravityY" min="-100" max="100" value="50" step="0.01"
+						oninput="this.nextElementSibling.value = this.value">
+					<output>50</output>
+				</label>
+
+			</div>
+		</div>
+	</div>
+
+	<script src="../_Lib/Phaser.js"></script>
+	<script src="./script.js" type="module"></script>
+</body>
+
+</html>

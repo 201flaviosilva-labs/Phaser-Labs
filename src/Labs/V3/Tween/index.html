@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../../../CSS/Canvas.css">
+	<title>Tweens</title>
+</head>
+
+<body>
+	<div id="FPS">FPS</div>
+	<h1>Tween</h1>
+
+	<a href="https://rexrainbow.github.io/phaser3-rex-notes/docs/site/tween/#ease-equations">Docs</a>
+
+	<select id="aniamtion">
+		<option value="Power0">Power0 (Linear)</option>
+		<option value="Power1">Power1 (Quadratic.Out)</option>
+		<option value="Power2">Power2 (Cubic.Out)</option>
+		<option value="Power3">Power3 (Quartic.Out)</option>
+		<option value="Power4">Power4 (Quintic.Out)</option>
+		<option value="Linear">Linear</option>
+		<option value="Quad">Quad (Quadratic.Out)</option>
+		<option value="Cubic">Cubic (Cubic.Out)</option>
+		<option value="Quart">Quart (Quartic.Out)</option>
+		<option value="Quint">Quint (Quintic.Out)</option>
+		<option value="Sine">Sine (Sine.Out)</option>
+		<option value="Expo">Expo (Expo.Out)</option>
+		<option value="Circ">Circ (Circular.Out)</option>
+		<option value="Elastic">Elastic (Elastic.Out)</option>
+		<option value="Back">Back (Back.Out)</option>
+		<option value="Bounce">Bounce (Bounce.Out)</option>
+		<option value="Stepped">Stepped</option>
+		<option value="Quad.easeIn">Quad.easeIn</option>
+		<option value="Cubic.easeIn">Cubic.easeIn</option>
+		<option value="Quart.easeIn">Quart.easeIn</option>
+		<option value="Quint.easeIn">Quint.easeIn</option>
+		<option value="Sine.easeIn">Sine.easeIn</option>
+		<option value="Expo.easeIn">Expo.easeIn</option>
+		<option value="Circ.easeIn">Circ.easeIn</option>
+		<option value="Back.easeIn">Back.easeIn</option>
+		<option value="Circ.easeIn">Circ.easeIn</option>
+		<option value="Back.easeIn">Back.easeIn</option>
+		<option value="Quad.easeOut">Quad.easeOut</option>
+		<option value="Cubic.easeOut">Cubic.easeOut</option>
+		<option value="Quart.easeOut">Quart.easeOut</option>
+		<option value="Quint.easeOut">Quint.easeOut</option>
+		<option value="Sine.easeOut">Sine.easeOut</option>
+		<option value="Expo.easeOut">Expo.easeOut</option>
+		<option value="Circ.easeOut">Circ.easeOut</option>
+		<option value="Back.easeOut">Back.easeOut</option>
+		<option value="Bounce.easeOut">Bounce.easeOut</option>
+		<option value="Quad.easeInOut">Quad.easeInOut</option>
+		<option value="Cubic.easeInOut">Cubic.easeInOut</option>
+
+		<option value="Quart.easeInOut">Quart.easeInOut</option>
+		<option value="Sine.easeInOut">Sine.easeInOut</option>
+		<option value="Expo.easeInOut">Expo.easeInOut</option>
+		<option value="Circ.easeInOut">Circ.easeInOut</option>
+		<option value="Back.easeInOut">Back.easeInOut</option>
+		<option value="Bounce.easeInOut">Bounce.easeInOut</option>
+	</select>
+
+	<p id="EaseName">Power0</p>
+
+	<script src="../_Lib/Phaser.js"></script>
+	<script src="./script.js" type="module"></script>
+</body>
+
+</html>

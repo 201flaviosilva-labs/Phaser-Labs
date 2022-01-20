@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../../../CSS/Canvas.css">
+	<title>Sprite Sheet UI</title>
+</head>
+
+<body>
+
+	<style>
+		#Modal {
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 50vw;
+			height: 50vh;
+
+			padding: 0 10px;
+
+			border: 1px solid red;
+			border-radius: 4px;
+			box-shadow: 0 0 20px red;
+			background-color: black;
+
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-around;
+		}
+
+		#Modal * {
+			color: white;
+		}
+
+		#Modal h2 {
+			text-align: center;
+		}
+
+		#Modal label {
+			display: flex;
+			align-items: center;
+		}
+
+		#Modal label span {
+			flex: 1;
+			text-align: left;
+		}
+
+		#Modal label input {
+			flex: 1;
+			padding: 2px 4px;
+			border: 1px solid red;
+			border-radius: 4px;
+			background-color: black;
+		}
+
+		#Modal label span {
+			flex: 1;
+		}
+
+		#Modal button {
+			padding: 10px 20px;
+			border: 1px solid red;
+			border-radius: 4px;
+			background-color: black;
+		}
+	</style>
+
+	<div id="FPS">FPS</div>
+	<h1 id="scaleFIT">Sprite Sheet UI</h1>
+
+	<div id="Modal">
+		<h3>- Render -</h3>
+
+		<label for="image" title="Arrasta uma imagem">
+			<span>Sprite: </span>
+			<input type="file" name="image" id="inputFile">
+		</label>
+
+		<label for="frameWidth" title="Largura de cada sprite da imagem">
+			<span>Frame Width: </span>
+			<input type="number" id="frameWidth" name="frameWidth" value="32" min="0">
+		</label>
+
+		<label for="frameHeight" title="Altura de cada sprite da imagem">
+			<span>Frame Height: </span>
+			<input type="number" id="frameHeight" name="frameHeight" value="32" min="0">
+		</label>
+
+		<h3>- Time -</h3>
+		<label for="frameRate" title="Frames Por Segundo (FPS)">
+			<span>Frame Rate: </span>
+			<input type="range" id="frameRate" name="frameRate" value="24" min="1" max="60"
+				oninput="this.nextElementSibling.value = this.value">
+			<output>24</output>
+		</label>
+
+		<h3>- Repeat -</h3>
+		<label for="repeat" title="Repetir a animação">
+			<span>Animation Loop: </span>
+			<input type="checkbox" id="repeat" name="repeat" checked>
+		</label>
+
+		<label for="repeatDelay" title="Tempo de espera para Repetir a animação">
+			<span>Loop Delay: </span>
+			<input type="range" id="repeatDelay" name="repeatDelay" value="0" min="0" max="10000"
+				oninput="this.nextElementSibling.value = this.value">
+			<output>0</output>
+		</label>
+
+		<label for="yoyo" title="Depois de acabar a animação, repetir para trás">
+			<span>Yoyo : </span>
+			<input type="checkbox" id="yoyo" name="yoyo">
+		</label>
+
+		<button id="btnOK">OK</button>
+	</div>
+
+	<script src="../_Lib/Phaser.js"></script>
+	<script src="./script.js" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+{
+  "name": "phaser-fixolas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "eventemitter3": "^4.0.7",
+    "inherits": "^2.0.3",
+    "matter-js": "^0.17.1",
+    "path": "^0.12.7",
+    "phaser": "^3.*",
+    "phaser-lifecycle-plugin": "^0.1.0",
+    "phaser3-rex-plugins": "^1.1.53",
+    "process": "^0.11.10",
+    "util": "^0.10.4"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/201flaviosilva/phaser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/201flaviosilva/phaser/issues"
+  },
+  "homepage": "https://bitbucket.org/201flaviosilva/phaser#readme",
+  "devDependencies": {
+    "@azerion/phaser-input": "^2.0.5"
+  }
+}
