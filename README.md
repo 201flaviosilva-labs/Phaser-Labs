@@ -2,11 +2,10 @@
 
 ## Description
 
-Simples projetos/jogos desenvolvidos em Phaser
-
-Simple projects/games build in phaser.js
+Projetos de Teste e aprendizagem em Phaser
 
 ## Links
+- [Play](https://master.dhqnpcmiv2acr.amplifyapp.com);
+- [Code](https://bitbucket.org/201flaviosilva/phaser-labs/);
 - [Phaser](https://phaser.io/);
 - [Joguinhos Web](https://joguinhosweb.netlify.app/);
-- [Phaser-Fixolas](https://201flaviosilva.bitbucket.io/src/Labs/Phaser/index.html);
