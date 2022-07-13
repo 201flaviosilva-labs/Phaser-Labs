@@ -1,32 +1,29 @@
 {
-  "name": "phaser-fixolas",
+  "name": "phaser-labs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Projetos de Teste e aprendizagem em Phaser",
   "main": "index.js",
+  "author": "201flaviosilva",
+  "license": "MIT",
+  "homepage": "https://201flaviosilva-labs.github.io/Phaser-Labs/",
+  "scripts": {
+    "start": "serve ."
+  },
   "dependencies": {
-    "eventemitter3": "^4.0.7",
-    "inherits": "^2.0.3",
-    "matter-js": "^0.17.1",
+    "201flaviosilva-utils": "^1.2.6",
     "path": "^0.12.7",
     "phaser": "^3.*",
-    "phaser-lifecycle-plugin": "^0.1.0",
-    "phaser3-rex-plugins": "^1.1.53",
-    "process": "^0.11.10",
-    "util": "^0.10.4"
+    "phaser3-rex-plugins": "^1.1.71"
   },
-  "scripts": {},
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@bitbucket.org/201flaviosilva/phaser.git"
+  "devDependencies": {
+    "serve": "^14.0.0"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://bitbucket.org/201flaviosilva/phaser/issues"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/201flaviosilva-labs/Phaser-Labs.git"
   },
-  "homepage": "https://bitbucket.org/201flaviosilva/phaser#readme",
-  "devDependencies": {
-    "@azerion/phaser-input": "^2.0.5"
+  "bugs": {
+    "url": "https://github.com/201flaviosilva-labs/Phaser-Labs/issues"
   }
 }

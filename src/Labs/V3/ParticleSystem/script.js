@@ -13,9 +13,6 @@ screen.middleWidth = screen.w / 2;
 screen.middleHeight = screen.h / 2;
 
 class MainScene {
-	init() {
-	}
-
 	preload() {
 		{ // Bolas
 			this.load.image("BAmarelo", Assets.Sprites.Bola.Amarelo);
