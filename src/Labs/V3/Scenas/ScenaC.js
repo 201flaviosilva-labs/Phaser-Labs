@@ -3,7 +3,7 @@ export default class ScenaC extends Phaser.Scene {
 		super({ key: "ScenaC", active: true });
 	}
 
-	preload() {
+	init() {
 		console.log("Cena C");
 	}
 
