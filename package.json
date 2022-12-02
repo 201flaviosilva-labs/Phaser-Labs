@@ -10,13 +10,13 @@
     "start": "serve ."
   },
   "dependencies": {
-    "201flaviosilva-utils": "^1.2.6",
+    "201flaviosilva-utils": "^1.2.10",
     "path": "^0.12.7",
-    "phaser": "^3.*",
-    "phaser3-rex-plugins": "^1.1.71"
+    "phaser": "^3.55.2",
+    "phaser3-rex-plugins": "^1.1.77"
   },
   "devDependencies": {
-    "serve": "^14.0.0"
+    "serve": "^14.1.2"
   },
   "keywords": [],
   "repository": {

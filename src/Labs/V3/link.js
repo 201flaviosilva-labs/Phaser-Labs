@@ -94,6 +94,10 @@ export const links = [
     "web": "Luz",
   },
   {
+    "name": "Particles Game",
+    "web": "ParticlesGame",
+  },
+  {
     "name": "Particle System *",
     "web": "ParticleSystem",
   },
